@@ -1,0 +1,7 @@
+.DS_Store
+app_config.yml
+database.yml
+data/*
+db/*
+log/*
+tmp/*
