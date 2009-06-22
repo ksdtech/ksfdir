@@ -1,0 +1,20 @@
+h1. ksfdir - print out the KSF directory
+
+Sinatra / DataMapper application cloned from my_way Sinatra Starter Kit
+
+http://github.com/CarlosGabaldon/my_way/tree/master
+http://github.com/mikker/my_way/tree/master
+
+h2. Configuration
+
+Take a look at @application.rb@... Everything should be kinda self explanatory.
+
+h2. Usage
+
+Export student.export.text to data subdirectory.  Then:
+
+rake db:migrate
+rake directory:import
+rake directory:text
+
+Result will be output in data subdirectory.
